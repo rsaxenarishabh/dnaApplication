@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dnamedical">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/dnalogo"
+        android:label="DNA"
+        android:roundIcon="@drawable/dnalogo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Activities.AboutUsActivit"></activity>
+        <activity
+            android:name=".Activities.FranchiActivity"
+            android:label="Query"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme5" />
+        <activity
+            android:name=".Activities.QbankResultListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activities.PromoActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme6" />
+        <activity
+            android:name=".Activities.QbankReviewResult"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activities.QbankAddFeedbackActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activities.QbankResultActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activities.QbankRatingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activities.QbankTestActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme6" />
+        <activity
+            android:name=".Activities.BookmarkActivity"
+            android:label="MCQ Bookmarks"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme5" />
+        <activity
+            android:name=".Activities.QbankStartTestActivity"
+            android:label="Amino acid:Metabolism"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme1" />
+        <activity
+            android:name=".Activities.QbankSubActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activities.ReviewQuestionList"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activities.ReviewresulActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activities.ReviewResultActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activities.SplashActivity"
+            android:theme="@style/AppTheme6">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activities.FirstloginActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activities.LoginActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activities.RegistrationActivity"
+            android:parentActivityName=".Activities.FirstloginActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activities.TheorybookActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activities.PaymentActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activities.PhoneloginActivity"
+            android:parentActivityName=".Activities.FirstloginActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activities.MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme1" />
+        <activity
+            android:name=".Activities.VedioClassesActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activities.VerifyOTPActivity"
+            android:screenOrientation="portrait" />
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <activity android:name=".Activities.NeetPgActivity" />
+        <activity android:name=".Activities.ShoppingActivty" />
+        <activity android:name=".Activities.LiveActivity" />
+        <activity
+            android:name=".Activities.DNAFacultyActivity"
+            android:label="Faculty"
+            android:parentActivityName=".Activities.MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".Activities.DNASuscribeActivity"
+            android:label="Subscribe"
+            android:parentActivityName=".Activities.MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".Activities.DNAKnowmoreActivity"
+            android:label="Know More"
+            android:parentActivityName=".Activities.MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".Activities.ContactUsActivity"
+            android:label="Contact Us"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme2" />
+        <activity android:name=".Activities.DNASettingActivity" />
+        <activity
+            android:name=".Activities.Noticeboard"
+            android:label="Notice Board"
+            android:parentActivityName=".Activities.MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".Activities.DNAProfileActivity"
+            android:label="Profile"
+            android:parentActivityName=".Activities.MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".Activities.WebViewActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Activities.VideoActivity" />
+        <activity
+            android:name=".Activities.VideoPlayerActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activities.TestStartActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activities.TestActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activities.TestQuestionExamActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activities.ResultActivity"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>

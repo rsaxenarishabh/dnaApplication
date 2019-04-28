@@ -1,0 +1,120 @@
+<resources>
+    <string name="app_name">MedicalApp</string>
+
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="font_fontFamily_medium">sans-serif</string>
+    <string name="font_fontFamily_medium2">sans-serif-medium</string>>
+
+    <string name="loginText">A One-Stop Solution For</string>
+
+    <string name="loginbottomText"></string>
+
+    <string name="facebook_app_id">2180675295533531</string>
+
+    <string name="paymenttext">
+
+        <br>
+            After paying\n</br>
+        <br>
+            your will be able to\n</br>
+
+        <br>
+            see this video \n</br>
+    </string>
+
+    <string name="jpr_Address">
+
+        <br>
+            JPR Technosoft Private Limited\n</br>
+        <br>
+            Sector 65 A block\n</br>
+
+        <br>
+           Noida (U.P) India \n</br>
+    </string>
+    <string name="faculty">Today is hard,tomorrow is worse, but the day after tomorrow will be Sunshine(Jack Ma)</string>
+
+    <string name="knowmore">DNA MCQs and video lessons are structured in such a way that you
+        understand the important concepts in each topic before you learn facts. Focus on high-yield topics and repeat MCQs.</string>
+
+    <string name="HeadingEdition1">What is DNA Edition 1.0 and who is it meant for ?</string>
+    <string name="HeadingEdition2">What are The Main features ? The 3 major features of DNA Edition 1.0 are :</string>
+    <string name="HeadingEdition3"> Which all video lessons will be upgraded in DNA Edition 1.0 ? ?</string>
+    <string name="HeadingEdition4">Can you share the complete faculty list for DNA Edition 1.0  ?</string>
+    <string name="HeadingEdition5">When wil DNA Edition 1.0 be live ?</string>
+    <string name="HeadingEdition6">How can I register for DNA Edition 1.0 ?</string>
+    <string name="HeadingEdition7">The first 1000 registrations will get : </string>
+    <string name="HeadingEdition8">if I am already a Pro user, how can I upgrade to DNA Edition 1.0 pro plan ?</string>
+    <string name="HeadingEdition9">If I secure a PG seat in the NEET PG 2019 exam, what are the steps to be taken to avail the refund ?</string>
+    <string name="HeadingEdition10">If I qualify for the 2 months bonus, when eill it be credited to my account  ?</string>
+    <string name="HeadingEdition11">What is DNA Edition 3.0 and who is it meant for ?</string>
+    <string name="HeadingEdition12">For how long is my coupon valid ?</string>
+    <string name="Edition1">
+        In general, initial training is taken at medical school. Traditionally initial medical education is divided between preclinical and clinical studies. The former consists of the basic sciences such as anatomy, physiology, biochemistry, pharmacology, pathology. The latter consists of teaching in the various areas of clinical medicine such as internal medicine, pediatrics, obstetrics and gynecology, psychiatry, general practice and surgery. However, medical programs are using systems-based curricula in which learning is integrated, and several institutions do this. In the United States, until quite recently,[when?] the requirements for the M.D. degree did not include even one course in human nutrition. Today, this omission has been rectified,[2] at least to the extent that one such course is required.[3]</string>
+
+    <string name="no_internet">No internet connection!</string>
+    <string name="registerd_success">your Email registerd Successfully</string>
+    <string name="coming_soon">Coming Soon</string>
+    <string name="login_cancel">Login Cancelled!!!</string>
+    <string name="empty_field">Field can\'t be empty!!!</string>
+    <string name="invalid_email">Invalid Email</string>
+    <string name="fill_detail">Fill the complete qbankDetails!!!!</string>
+    <string name="full_number">Enter 10 digit Number!!!</string>
+    <string name="too_short">Password is too short!!!</string>
+    <string name="invalid_data">User Enter Invalid Data!!!</string>
+    <string name="no_project">No internet connection</string>
+    <string name="home">Home</string>
+    <string name="video">Video</string>
+    <string name="QBank">Q Bank</string>
+    <string name="Test">Test</string>
+    <string name="Online">Online</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">User1</string>
+    <string name="nav_header_subtitle">user1@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="image">text</string>
+    <string name="invalid_name">Please enter valid name!!</string>
+    <string name="invalid_username">Please enter valid Username!!</string>
+    <string name="invalid_password">Please enter invalid Password!!</string>
+    <string name="invalid_too_short">Password length atleast 6 digit!!</string>
+    <string name="contact_top_text">Please use any of the following modes to get in touch with us..</string>
+    <string name="try_other_login">Try other login methods</string>
+    <string name="terms">Terms Conditions</string>
+    <string name="privacy"> and Privacy Policy</string>
+    <string name="rupay">Rs. 3,500</string>
+
+    <string name="already_member">Already member? Log In</string>
+    <string name="edit_user_profile">Edit</string>
+    <string name="alert_text">Are you sure to logout?</string>
+    <string name="select_state">Select State</string>
+    <string name="error_unrecognized_stereo_mode">Error</string>
+    <string name="storage_permission_denied">Permission denied</string>
+    <string name="unexpected_intent_action">Error 1</string>
+    <string name="error_drm_unknown">Unknown</string>
+    <string name="error_drm_not_supported">Not supported format</string>
+    <string name="error_drm_unsupported_scheme">Not supported format</string>
+    <string name="ima_not_loaded">not loaded</string>
+    <string name="error_unsupported_video">Unsupported</string>
+    <string name="error_unsupported_audio">Unsuppoted</string>
+    <string name="error_generic">Error in playing video</string>
+    <string name="error_querying_decoders">Error_in decoders</string>
+    <string name="error_no_secure_decoder">Error in source</string>
+    <string name="vedio_text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'ss standard dummy..</string>
+    <string name="test_start">The test contains</string>
+    <string name="test_start_medium">questions from Psychiatry with a duration of </string>
+    <string name="alert_text1">Once You Start, the  test timer cannot be paused. Continue?</string>
+    <string name="discard_text1">Are you sure you want to discard the test?</string>
+    <string name="submit_text1">Your Test timed out! Submit the test?</string>
+    <string name="guess_heading">New Feature to help you with negative marking!</string>
+    <string name="guess_sub_heading">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed bibendum diam id mauris dignissim, vel placerat nisl blandit. Vestibulam ante ipsum primis in faucibus orciluctus et ultrices posuere cubilia Curae.</string>
+    <string name="valid_phone">Please enter valid phone</string>
+    <string name="enter_otp">Enter otp</string>
+    <string name="enter_otp_on_email">Enter otp sent on your phone</string>
+    <string name="resend_otp">RESEND</string>
+    <string name="resend_otp_remain">%1$d Seconds</string>
+    <string name="know_more_data">Latest Online Platform For MD / MS / DNB / DM / M.Ch  Preparation With Questions Bank , Test Series , Recorded Video Lectures and Live Video Lectures</string>
+</resources>

@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none">
+
+
+    <LinearLayout
+        android:id="@+id/linear1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="2"
+            android:paddingLeft="10dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:text="DNA"
+            android:textColor="@color/colorAccent"
+            android:textSize="20dp" />
+
+        <ImageView
+            android:id="@+id/btnCancel"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:src="@drawable/qbank_wrong_answer" />
+
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/linearBottom"
+        android:layout_below="@id/linear1">
+
+        <ScrollView
+            android:id="@+id/scrollView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/questionList"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:visibility="visible" />
+
+
+                <LinearLayout
+                    android:id="@+id/questionListDescription"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="10dp"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:id="@+id/qtext"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:text="Test Questions"
+                        android:textSize="@dimen/text_large" />
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical">
+
+                        <LinearLayout
+                            android:layout_margin="5dp"
+                            android:id="@+id/linear_txt_one"
+                            android:layout_width="30dp"
+                            android:layout_height="wrap_content"
+
+                            >
+
+                            <ImageView
+                                android:id="@+id/imga"
+                                android:layout_width="20dp"
+                                android:layout_height="20dp"
+                                android:padding="5dp"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginTop="8dp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_toRightOf="@id/linear_txt_one"
+                     >
+
+                            <TextView
+                                android:id="@+id/optionA"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_toRightOf="@id/imga"
+                                android:text="Test"
+                                android:textSize="19sp"/>
+
+                            <TextView
+                                android:id="@+id/optionAPer"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_toRightOf="@+id/optionA"
+
+                                android:textColor="@color/black_titles"
+                                android:textSize="@dimen/evp_text_size_medium" />
+                        </LinearLayout>
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical">
+
+                        <LinearLayout
+                            android:layout_margin="5dp"
+                            android:id="@+id/linear_txt_two"
+                            android:layout_width="30dp"
+                            android:layout_height="wrap_content"
+                           >
+
+                            <ImageView
+                                android:id="@+id/imgb"
+                                android:layout_width="20dp"
+                                android:layout_height="20dp"
+                                android:layout_centerVertical="true"
+                                android:layout_marginTop="10dp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_toRightOf="@id/linear_txt_two"
+                        >
+
+                            <TextView
+                                android:id="@+id/optionB"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_toRightOf="@id/imgb"
+                                android:text="Test"
+                                android:textSize="19sp" />
+
+                            <TextView
+                                android:id="@+id/optionBPer"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_toRightOf="@+id/optionB"
+
+                                android:textColor="@color/black_titles"
+                                android:textSize="@dimen/evp_text_size_medium" />
+                        </LinearLayout>
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical">
+
+                        <LinearLayout
+                            android:layout_margin="5dp"
+                            android:id="@+id/linear_txt_three"
+                            android:layout_width="30dp"
+                            android:layout_height="wrap_content"
+                            >
+
+                            <ImageView
+                                android:id="@+id/imgc"
+                                android:layout_width="20dp"
+                                android:layout_height="20dp"
+                                android:layout_marginTop="8dp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_toRightOf="@id/linear_txt_three"
+                            >
+
+                            <TextView
+                                android:id="@+id/optionC"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_toRightOf="@id/imgc"
+                                android:text="Test"
+                                android:textSize="19sp" />
+
+                            <TextView
+                                android:id="@+id/optionCPer"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_toRightOf="@+id/optionC"
+
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/evp_text_size_medium" />
+                        </LinearLayout>
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical">
+
+                        <LinearLayout
+                        android:layout_margin="5dp"
+                            android:id="@+id/linear_txt_four"
+                            android:layout_width="30dp"
+                            android:layout_height="wrap_content"
+                          >
+
+                            <ImageView
+                                android:id="@+id/imgd"
+                                android:layout_width="20dp"
+                                android:layout_height="20dp"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="5dp"
+                                />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:layout_toRightOf="@id/linear_txt_four">
+
+                            <TextView
+                                android:id="@+id/optionD"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_toRightOf="@id/imgd"
+                                android:text="Test"
+                                android:textSize="19sp" />
+
+                            <TextView
+
+                                android:id="@+id/optionDPer"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_toRightOf="@+id/optionD"
+
+                                android:textColor="@color/black_titles"
+                                android:textSize="@dimen/evp_text_size_medium" />
+                        </LinearLayout>
+
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp">
+
+                        <android.support.v7.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            app:cardBackgroundColor="@color/card_gray">
+
+                            <LinearLayout
+                                android:visibility="gone"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                                <ProgressBar
+                                    android:id="@+id/progress_bar_chart"
+                                    style="?android:attr/progressBarStyle"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:outlineSpotShadowColor="@color/black"
+                                    android:visibility="gone" />
+
+                                <TextView
+                                    android:id="@+id/bar_chart_percentage"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:gravity="center_vertical"
+                                    android:minHeight="30sp"
+                                    android:paddingLeft="15dp"
+                                    android:text="gydghjdghj"
+                                    android:textColor="@color/black_titles"
+                                    android:textSize="@dimen/text_large" />
+
+                            </LinearLayout>
+
+                        </android.support.v7.widget.CardView>
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/reference"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="10dp"
+                            android:gravity="center_vertical"
+                            android:padding="10dp"
+                            android:text="Ref By Dr. Niraj Kumar Author"
+                            android:textSize="@dimen/text_large" />
+
+
+                    </RelativeLayout>
+
+                    <WebView
+                        android:id="@+id/webView"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+
+                    <ProgressBar
+                        android:id="@+id/progressBar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center" />
+                </LinearLayout>
+            </LinearLayout>
+
+        </ScrollView>
+    </FrameLayout>
+
+    <com.dnamedical.views.CustomViewPager
+        android:id="@+id/pager2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/linearBottom"
+        android:layout_below="@id/linear1"
+        android:layout_weight="1"
+
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:id="@+id/linearBottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:gravity="center_vertical"
+        android:padding="10dp"
+        android:visibility="gone"
+        tools:visibility="visible">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/review_result_question_icon" />
+
+        <Button
+            android:id="@+id/nextBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:background="@color/colorAccent"
+            android:minWidth="140dp"
+            android:padding="5dp"
+            android:text="Next"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
