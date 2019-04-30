@@ -39,13 +39,13 @@ android {
             signingConfig uatSigningKey
             multiDexEnabled true
             minifyEnabled false
-            buildConfigField "String", "API_SERVER_IP", "\"http://reddyenterprise.com/education/\""
+            buildConfigField "String", "API_SERVER_IP", "\"http://13.234.161.7/\""
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
         debug {
             minifyEnabled false
             multiDexEnabled true
-            buildConfigField "String", "API_SERVER_IP", "\"http://reddyenterprise.com/education/\""
+            buildConfigField "String", "API_SERVER_IP", "\"http://13.234.161.7/\""
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
