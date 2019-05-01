@@ -36,10 +36,6 @@ import retrofit2.http.Query;
 
 public interface ApiInterface {
 
-
-
-
-
     @Multipart
     @POST("api/api.php?req=login")
     Call<loginResponse> loginUser(@Part("email_id") RequestBody email, @Part("password") RequestBody password);
