@@ -13,6 +13,7 @@
         android:allowBackup="true"
         android:icon="@drawable/dnalogo"
         android:label="DNA"
+        android:usesCleartextTraffic="true"
         android:roundIcon="@drawable/dnalogo"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
