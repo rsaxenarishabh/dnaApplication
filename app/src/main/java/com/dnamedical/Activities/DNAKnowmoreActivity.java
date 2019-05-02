@@ -87,7 +87,7 @@ public class DNAKnowmoreActivity extends AppCompatActivity {
     }
 
     private void facultyData() {
-
+//ukhdukhdkdkud
         if (Utils.isInternetConnected(this)) {
             Utils.showProgressDialog(this);
             RestClient.knowMoreData(new Callback<com.dnamedical.Models.Directors>() {
