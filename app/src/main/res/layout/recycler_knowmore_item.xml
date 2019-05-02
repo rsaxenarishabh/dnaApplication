@@ -24,6 +24,7 @@
                     android:src="@drawable/dr1" />
 
                 <ProgressBar
+                    android:visibility="gone"
                     android:id="@+id/imageloader"
                     android:layout_width="20dp"
                     android:layout_height="20dp"
